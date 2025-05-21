@@ -1,5 +1,5 @@
 <?php
-$mysqli = mysqli_connect("localhost", "root", "", "banking");
+$mysqli = mysqli_connect("host.com", "sql12780355", "", "sql12780355");
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
     die();

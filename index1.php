@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["email"])) {
             $mail->isHTML(true);
             $mail->Subject = "Password Reset Request";
 
-            $resetLink = "http://localhost/SAMPLE/reset_password.php?key=$key&email=$email";
+            $resetLink = "http://host.com/SAMPLE/reset_password.php?key=$key&email=$email";
             $mail->Body = "
                 <p>Dear User,</p>
                 <p>Please click the link below to reset your password:</p>

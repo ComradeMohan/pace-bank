@@ -14,7 +14,7 @@
 
   <?php
     $account_number = $_GET['account_number'];
-    $mysqli = new mysqli("localhost", "root", "", "banking");
+    $mysqli = new mysqli("host.com", "sql12780355", "", "sql12780355");
 
     if ($mysqli->connect_error) {
         die("Connection failed: " . $mysqli->connect_error);

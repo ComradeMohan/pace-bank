@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-$host = 'localhost';
+$host = 'host.com';
 $user = 'root';
 $password = '';
 $db_name = 'banking';

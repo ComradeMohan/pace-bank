@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$host = 'localhost'; 
+$host = 'host.com'; 
 $username = 'root'; 
 $password = ''; 
 $dbname = 'banking'; 

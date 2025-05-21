@@ -10,10 +10,10 @@
 <body>
     <?php
     // Connect to the database
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "banking"; // Replace with your actual database name
+    $servername = "host.com";
+    $username = "sql12780355";
+    $password = "Pgly8MQ1dN";;
+    $dbname = "sql12780355"; // Replace with your actual database name
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

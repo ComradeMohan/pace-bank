@@ -175,7 +175,7 @@ header h1 {
       <tbody>
         <?php
         $client_id = $_GET['client_id'];
-        $mysqli = new mysqli("localhost", "root", "", "banking");
+        $mysqli = new mysqli("host.com", "sql12780355", "", "sql12780355");
 
         if ($mysqli->connect_error) {
             die("Connection failed: " . $mysqli->connect_error);

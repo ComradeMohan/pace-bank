@@ -1,6 +1,6 @@
 <?php
-    $dbuser="root";
+    $dbuser="sql12780355";
     $dbpass="";
-    $host="localhost";
-    $db="banking";
+    $host="host.com";
+    $db="sql12780355";
     $mysqli=new mysqli($host,$dbuser, $dbpass, $db);

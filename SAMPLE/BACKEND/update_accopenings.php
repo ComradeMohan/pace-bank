@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost';
+$host = 'host.com';
 $dbname = 'banking';
 $username = 'root';
 $password = '';

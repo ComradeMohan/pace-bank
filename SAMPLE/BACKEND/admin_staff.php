@@ -53,7 +53,7 @@
   <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       // Database connection settings
-      $host = 'localhost';
+      $host = 'host.com';
       $db = 'banking';
       $user = 'root';
       $password = '';
